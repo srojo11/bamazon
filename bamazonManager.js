@@ -133,7 +133,7 @@ connection.query('SELECT * FROM products WHERE ?', {item_id: answer.item}, funct
 },
 
 {
-	item_id: answer.id
+	item_id: answer.item
 
 }]function(err, results) {});
 
